@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.barrasuperior .logo a img{
+    width: 20%;
+}
+
+.barrasuperior .logo{
+    width: 500px;
+}
+
+.barrasuperior .busqueda{
+    width: 550px;
+}
+
+.barrasuperior{
+    display: flex;
+    align-content: space-between;
+    background-color: #1c1c1c;
+    align-items: center;
+}
+
+#Buscar{
+    width: 400px;
+}
+
+.barralateral{
+    width: 150px;
+    background:#1c1c1c;
+    height:650px;
+}
+
+.barralateral a{
+    display: block;
+    margin: 10px;
+    padding:10px;
+    text-decoration: none;
+    color: white;
+}
+
+.barralateral a:hover{
+    background-color: gray;
+}
